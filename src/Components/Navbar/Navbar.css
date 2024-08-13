@@ -68,7 +68,12 @@
   justify-content: center;
   display: none;
   border-radius: 20px;
-}
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  padding: 10px;
+  transition: 0.7s;
+  }
 .lg_menu ul li a {
   color: white;
   padding-top: 10px;
