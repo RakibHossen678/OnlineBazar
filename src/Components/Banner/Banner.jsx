@@ -1,5 +1,6 @@
 import "./Banner.css";
-import bannerImg from "../../assets/banner.png";
+// import bannerImg from "../../assets/banner.png";
+import bannerImg from "../../assets/Untitled design (1).png";
 import { BsArrowRight } from "react-icons/bs";
 const Banner = () => {
   return (
@@ -15,7 +16,11 @@ const Banner = () => {
               limited-time promotions and seasonal discounts—shop now for
               exceptional value and quality!
             </p>
-            <button className="hero-cta">Shop Now <span><BsArrowRight /></span>
+            <button className="hero-cta">
+              Shop Now{" "}
+              <span>
+                <BsArrowRight />
+              </span>
             </button>
           </div>
           <div className="banner_img">

@@ -30,7 +30,7 @@
 }
 
 .hero-cta {
-  padding: 15px 30px;
+  padding: 13px 30px;
   background-color: #ffd233;
   color: #000;
   border: none;
@@ -39,16 +39,22 @@
   cursor: pointer;
   display: flex;
   align-items: center;
+  border: 2px solid #ffd233;
 }
 .hero-cta span {
   padding-top: 4px;
   padding-left: 5px;
+}
+.hero-cta:hover{
+  background: transparent;
+  border: 2px solid ;
 }
 .banner_img img {
   width: 100%;
   height: auto;
   max-width: 529px;
   display: block;
+  
 }
 @media (max-width: 768px) {
   .hero-headline {

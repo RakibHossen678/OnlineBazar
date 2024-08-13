@@ -9,7 +9,6 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
     
   };
-  console.log(menuOpen)
   return (
     <nav>
       <div className="container">
