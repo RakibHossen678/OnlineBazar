@@ -1,5 +1,4 @@
 import "./Banner.css";
-// import bannerImg from "../../assets/banner.png";
 import bannerImg from "../../assets/Untitled design (1).png";
 import { BsArrowRight } from "react-icons/bs";
 const Banner = () => {
