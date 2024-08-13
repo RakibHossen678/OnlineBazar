@@ -6,6 +6,26 @@
   --potta: "Potta One", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--poppins);
+  overflow-x: hidden;
+}
+.container {
+  width: 100%;
+  max-width: 1190px;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 14px;
+  }
 }

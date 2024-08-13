@@ -1,0 +1,97 @@
+.logo {
+  font-family: var(--potta);
+  font-size: 35px;
+}
+.logo span {
+  color: #ffd233;
+}
+.nav_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_row ul {
+  padding-left: 0;
+}
+.nav_row ul li {
+  display: inline-block;
+  padding: 20px 23px;
+}
+.nav_row ul li a {
+  color: black;
+  position: relative;
+}
+.nav_row ul li a::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  bottom: -6px;
+  left: 0;
+  background-color: black;
+  transition: 0.3s;
+}
+.nav_row ul li a:hover::before {
+  width: 100%;
+}
+.nav_row div {
+  display: flex;
+  align-items: center;
+}
+.nav_row div button {
+  background-color: #ffd233;
+  border: none;
+  outline: none;
+  padding: 7px 31px;
+  border-radius: 13px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 180%;
+  color: #fff;
+  margin-right: 15px;
+  border: 2px solid #ffd233;
+}
+.nav_row div button:hover {
+  background: transparent;
+  color: #000;
+  border: 2px solid black;
+}
+.menubar {
+  display: none;
+}
+.lg_menu {
+  margin-top: 9px;
+  background-color: #ffd233;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  border-radius: 20px;
+}
+.lg_menu ul li a {
+  color: white;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  nav {
+    margin-top: 15px;
+  }
+  
+  .menubar {
+    display: inline;
+    margin-left: 10px;
+  }
+  .nav_row ul {
+    display: none;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .nav_row div button {
+    padding: 5px 20px;
+    line-height: 180%;
+  }
+}
