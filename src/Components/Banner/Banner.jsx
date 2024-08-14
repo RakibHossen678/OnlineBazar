@@ -1,12 +1,12 @@
 import "./Banner.css";
-import bannerImg from "../../assets/Banner.png";
+import bannerImg from "../../assets/banner.png";
 import { BsArrowRight } from "react-icons/bs";
 const Banner = () => {
   return (
     <header className="hero-section">
       <section className="container">
         <div className="banner_row">
-           {/* Hero content including headline, subheadline, and CTA button */}
+          {/* Hero content including headline, subheadline, and CTA button */}
           <div className="hero-content">
             <h1 className="hero-headline">Welcome to Our Store</h1>
             <p className="hero-subheadline">
