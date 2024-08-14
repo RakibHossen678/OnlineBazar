@@ -9,10 +9,9 @@
 }
 .f_card img {
   width: 100%;
-  height: 360px; 
+  height: 360px;
   object-fit: cover;
   object-position: top;
-  
 }
 .f_card div h3 {
   font-weight: 500;
@@ -21,7 +20,7 @@
   color: #353535;
   padding-bottom: 8px;
 }
-.f_card div{
+.f_card div {
   padding: 10px;
 }
 .f_card div h5 {
@@ -61,11 +60,10 @@
 .f_card:hover .addCard {
   visibility: visible;
 }
-.feature_row{
+.feature_row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 50px;
+  gap: 40px;
 }
 
 .f_content {
@@ -74,12 +72,55 @@
   font-family: var(--pt);
   font-size: 40px;
 }
-.f_content span{
+.f_content span {
   color: #ffd233;
 }
 
-@media (max-width: 768px){
-  .f_card{
+.filter_control {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+}
+
+.label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+  width: 100%;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  outline: none;
+  border-color: #ffd233;
+}
+
+option {
+  padding: 14px;
+}
+
+@media (max-width: 768px) {
+  .f_card {
     width: 100%;
   }
 }

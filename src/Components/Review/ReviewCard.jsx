@@ -1,5 +1,4 @@
 const ReviewCard = ({ review }) => {
-  console.log(review);
   const { name, review: reviewText, rating, img } = review;
   return (
     <div className="reviewCard">

@@ -11,7 +11,7 @@
     "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     "category": "women",
     "image": "https://i.ibb.co/sWW7Mwz/product-1.png",
-    "new_price": 85.0,
+    "new_price": 80.0,
     "old_price": 120.5,
     "description": "This blouse combines elegant stripes with flutter sleeves and a peplum hem, perfect for any occasion."
   },
@@ -19,7 +19,7 @@
     "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     "category": "men",
     "image": "https://i.ibb.co/QJZM5Fz/product-21.png",
-    "new_price": 85.0,
+    "new_price": 89.0,
     "old_price": 120.5,
     "description": "A sleek bomber jacket with a slim fit and full zip, perfect for a modern and stylish look."
   },
@@ -27,7 +27,7 @@
     "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     "category": "men",
     "image": "https://i.ibb.co/HH9FQSD/product-23.png",
-    "new_price": 85.0,
+    "new_price": 87.0,
     "old_price": 120.5,
     "description": "This bomber jacket offers a slim fit with a full zip closure, ideal for a trendy and versatile look."
   },
@@ -35,7 +35,7 @@
     "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     "category": "men",
     "image": "https://i.ibb.co/dp7vs42/product-15.png",
-    "new_price": 85.0,
+    "new_price": 95.0,
     "old_price": 120.5,
     "description": "Modern bomber jacket with a full zip and slim fit, perfect for casual or semi-formal occasions."
   },
@@ -43,7 +43,7 @@
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": "https://i.ibb.co/L9NNfDY/product-28.png",
-    "new_price": 85.0,
+    "new_price": 94.0,
     "old_price": 120.5,
     "description": "A vibrant orange hooded sweatshirt with colorblocked design, perfect for kids who love bold styles."
   },
@@ -51,7 +51,7 @@
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": "https://i.ibb.co/F0yrgnh/product-32.png",
-    "new_price": 85.0,
+    "new_price": 75.0,
     "old_price": 120.5,
     "description": "Colorblocked hooded sweatshirt in orange, designed for comfort and style for active kids."
   },
@@ -59,249 +59,41 @@
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": "https://i.ibb.co/xfkKmtg/product-36.png",
-    "new_price": 85.0,
+    "new_price": 86.0,
     "old_price": 120.5,
     "description": "A stylish orange sweatshirt with a colorblocked pattern and hood, ideal for everyday wear."
   },
   {
     "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     "category": "women",
-    "image": "path/to/p3_img.png",
+    "image": "https://i.ibb.co/pRP4m4P/product-6.png",
     "new_price": 60.0,
     "old_price": 100.5,
     "description": "Featuring a unique overlap collar and peplum hem, this blouse is a fashionable choice with a comfortable fit."
   },
-  {
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    "category": "women",
-    "image": "path/to/p4_img.png",
-    "new_price": 100.0,
-    "old_price": 150.0,
-    "description": "A premium blouse with striped pattern, flutter sleeves, and a peplum hem for a chic and sophisticated look."
-  },
-  {
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    "category": "women",
-    "image": "path/to/p5_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Elegant and trendy blouse with a striped design, flutter sleeves, and a flattering peplum hem."
-  },
-  {
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    "category": "women",
-    "image": "path/to/p6_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "A versatile blouse with a stylish striped pattern and a peplum hem, ideal for a polished look."
-  },
-  {
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    "category": "women",
-    "image": "path/to/p7_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "This fashionable blouse features flutter sleeves and a peplum hem, perfect for any elegant outfit."
-  },
-  {
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    "category": "women",
-    "image": "path/to/p8_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Classic and stylish blouse with a striped pattern, designed with flutter sleeves and a peplum hem."
-  },
-  {
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    "category": "women",
-    "image": "path/to/p9_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "A trendy blouse with a striped design, flutter sleeves, and a peplum hem for a fashionable appearance."
-  },
-  {
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    "category": "women",
-    "image": "path/to/p10_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Stylish blouse featuring a striped pattern and a peplum hem, designed for a chic and sophisticated look."
-  },
-  {
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    "category": "women",
-    "image": "path/to/p11_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Elegant blouse with flutter sleeves and a peplum hem, perfect for dressing up any outfit."
-  },
-  {
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    "category": "women",
-    "image": "path/to/p12_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Chic and stylish blouse with a striped pattern, flutter sleeves, and a peplum hem for a flattering fit."
-  },
-  
+
   {
     "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     "category": "men",
-    "image": "path/to/p14_img.png",
-    "new_price": 85.0,
+    "image": "https://i.ibb.co/rfzdGz1/product-14.png",
+    "new_price": 69.0,
     "old_price": 120.5,
     "description": "This bomber jacket offers a slim fit with a full zip closure, ideal for a trendy and versatile look."
   },
   {
     "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     "category": "men",
-    "image": "path/to/p15_img.png",
-    "new_price": 85.0,
+    "image": "https://i.ibb.co/TRvyh8v/product-24.png",
+    "new_price": 75.0,
     "old_price": 120.5,
     "description": "Modern bomber jacket with a full zip and slim fit, perfect for casual or semi-formal occasions."
   },
   {
     "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    "category": "men",
-    "image": "path/to/p16_img.png",
-    "new_price": 85.0,
+    "category": "kid",
+    "image": "https://i.ibb.co/mqtBfJ1/product-30.png",
+    "new_price": 81.0,
     "old_price": 120.5,
     "description": "A stylish green bomber jacket with a slim fit and full zip, great for a sleek, contemporary style."
-  },
-  {
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    "category": "men",
-    "image": "path/to/p17_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Trendy bomber jacket featuring a slim fit and full zip, perfect for modern fashion enthusiasts."
-  },
-  {
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    "category": "men",
-    "image": "path/to/p18_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "A sleek bomber jacket with a slim fit and full zip, ideal for a contemporary and stylish look."
-  },
-  {
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    "category": "men",
-    "image": "path/to/p19_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Slim fit bomber jacket with a full zip closure, perfect for achieving a modern and fashionable appearance."
-  },
-  {
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    "category": "men",
-    "image": "path/to/p20_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "A contemporary bomber jacket with a slim fit and full zip, suitable for both casual and formal settings."
-  },
-  {
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    "category": "men",
-    "image": "path/to/p21_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Modern bomber jacket with a full zip and slim fit, ideal for a stylish and trendy wardrobe."
-  },
-  {
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    "category": "men",
-    "image": "path/to/p22_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "A fashionable bomber jacket with a slim fit and full zip, perfect for a sleek and modern look."
-  },
-  {
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    "category": "men",
-    "image": "path/to/p23_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Trendy bomber jacket featuring a slim fit and full zip closure, ideal for a contemporary style."
-  },
-  {
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    "category": "men",
-    "image": "path/to/p24_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "A stylish and slim-fit bomber jacket with a full zip, perfect for adding a modern touch to any outfit."
-  },
-  {
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
-    "category": "kid",
-    "image": "path/to/p28_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Bright orange hooded sweatshirt with colorblocked design, perfect for casual outings and play."
-  },
-  {
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
-    "category": "kid",
-    "image": "path/to/p29_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Comfortable and trendy orange sweatshirt with a colorblocked pattern, ideal for active kids."
-  },
-  {
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
-    "category": "kid",
-    "image": "path/to/p30_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "This vibrant orange sweatshirt features a colorblocked design and hood, perfect for stylish and active boys."
-  },
-  {
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
-    "category": "kid",
-    "image": "path/to/p31_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Orange hooded sweatshirt with a bold colorblocked pattern, designed for comfort and style."
-  },
-  {
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
-    "category": "kid",
-    "image": "path/to/p32_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "A fun and stylish orange sweatshirt with a colorblocked design, great for casual wear."
-  },
-  {
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
-    "category": "kid",
-    "image": "path/to/p33_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Colorblocked hooded sweatshirt in orange, perfect for boys who love a vibrant and sporty look."
-  },
-  {
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
-    "category": "kid",
-    "image": "path/to/p34_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "A comfortable and stylish orange hoodie with a colorblocked design, ideal for everyday adventures."
-  },
-  {
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
-    "category": "kid",
-    "image": "path/to/p35_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Bright and bold orange sweatshirt with a colorblocked design, perfect for active and fashionable boys."
-  },
-  {
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
-    "category": "kid",
-    "image": "path/to/p36_img.png",
-    "new_price": 85.0,
-    "old_price": 120.5,
-    "description": "Stylish orange hoodie featuring a colorblocked pattern, designed for comfort and a modern look."
   }
 ]
