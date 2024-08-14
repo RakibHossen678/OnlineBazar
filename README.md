@@ -14,7 +14,7 @@ This project involves designing and implementing a responsive e-commerce landing
   - CTA button with a background image or animated banner
 
 - **Product Showcase**
-  - Grid or carousel display of featured products
+  - Grid  display of featured products
   - Product images, prices, and brief descriptions
 
 - **About Us Section**
