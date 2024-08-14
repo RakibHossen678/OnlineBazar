@@ -3,7 +3,7 @@ const ReviewCard = ({ review }) => {
   const { name, review: reviewText, rating, img } = review;
   return (
     <div className="reviewCard">
-      <div className="image">
+      <div className="images">
         <img src={img} alt="" />
       </div>
       <div className="review_Content">
