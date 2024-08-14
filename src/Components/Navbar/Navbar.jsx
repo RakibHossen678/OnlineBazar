@@ -1,15 +1,18 @@
 import { FaCartShopping } from "react-icons/fa6";
 import "./Navbar.css";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [product, setProduct] = useState(0);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-  const cardData = JSON.parse(localStorage.getItem("cart")).length;
-  console.log(cardData);
+  useEffect(() => {
+    const cardData = JSON.parse(localStorage.getItem("cart")).length;
+    setProduct(cardData);
+  }, []);
   return (
     <nav>
       <div className="container">
@@ -35,7 +38,7 @@ const Navbar = () => {
             <button>Login</button>
             <p className="addToCart">
               <FaCartShopping size={24} />
-              <p className="count">{cardData}</p>
+              <p className="count">{product}</p>
             </p>
             <p className="menubar" onClick={toggleMenu}>
               <HiMiniBars3BottomRight size={24} />
