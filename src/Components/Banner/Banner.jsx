@@ -1,11 +1,12 @@
 import "./Banner.css";
-import bannerImg from "../../assets/Untitled design (1).png";
+import bannerImg from "../../assets/Banner.png";
 import { BsArrowRight } from "react-icons/bs";
 const Banner = () => {
   return (
     <header className="hero-section">
       <section className="container">
         <div className="banner_row">
+           {/* Hero content including headline, subheadline, and CTA button */}
           <div className="hero-content">
             <h1 className="hero-headline">Welcome to Our Store</h1>
             <p className="hero-subheadline">
@@ -16,12 +17,14 @@ const Banner = () => {
               exceptional value and quality!
             </p>
             <button className="hero-cta">
-              Shop Now{" "}
+              Shop Now
               <span>
                 <BsArrowRight />
               </span>
             </button>
           </div>
+
+          {/* Banner image */}
           <div className="banner_img">
             <img src={bannerImg} alt="" />
           </div>

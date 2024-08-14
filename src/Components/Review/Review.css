@@ -1,75 +1,95 @@
+/* General heading styles */
 .heading {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #333;
-  text-align: center;
-}
-.review {
-  margin-bottom: 80px;
-  overflow: hidden
-}
-.reviewCard {
-  margin-top: 51px;
-  background-color: #f9f9f9;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 20px;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-.images {
-  background: #ffd233;
-  padding: 20px 0;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  width: 100%;
-}
-.images img {
-  width: 100px; 
-  height: 100px; 
-  border-radius: 50%; 
-  object-fit: cover;
-}
-.review_Content h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 200%;
-  color: #353535;
-  padding-top: 15px;
-}
-.desc {
-  font-weight: 400;
-  line-height: 200%;
-  color: #7a7a7a;
-  padding:  10px;
-}
-.rating {
-  font-size: 1.2rem;
-  color: #333;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding-bottom: 10px;
-}
-.heading span {
-  color: #ffd233;
-}
-.slick-slide > div {
-  margin: 0 20px;
+  font-size: 2.5rem; /* Large font size for headings */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #333; /* Dark gray text color */
+  text-align: center; /* Center-align text */
 }
 
-@media (max-width: 768px){
+/* Review section container */
+.review {
+  margin-bottom: 80px; /* Space below the review section */
+  overflow: hidden; /* Prevent content from overflowing */
+}
+
+/* Individual review card styles */
+.reviewCard {
+  margin-top: 51px; /* Space above the review card */
+  background-color: #f9f9f9; /* Light gray background color */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center-align text within the card */
+  border-radius: 20px; /* Rounded corners for the card */
+  overflow: hidden; /* Hide any overflow content */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+/* Image container within the review card */
+.images {
+  background: #ffd233; /* Yellow background color */
+  padding: 20px 0; /* Vertical padding */
+  border-top-left-radius: 20px; /* Rounded top-left corner */
+  border-top-right-radius: 20px; /* Rounded top-right corner */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  width: 100%; /* Full width */
+}
+
+/* Image styles within the review card */
+.images img {
+  width: 100px; /* Fixed width for images */
+  height: 100px; /* Fixed height for images */
+  border-radius: 50%; /* Make images circular */
+  object-fit: cover; /* Cover the entire image area */
+}
+
+/* Review content styles */
+.review_Content h3 {
+  font-weight: 500; /* Medium font weight */
+  font-size: 20px; /* Font size for review titles */
+  line-height: 200%; /* Double line height */
+  color: #353535; /* Dark gray text color */
+  padding-top: 15px; /* Space above the review title */
+}
+
+/* Description text within the review card */
+.desc {
+  font-weight: 400; /* Regular font weight */
+  line-height: 200%; /* Double line height */
+  color: #7a7a7a; /* Gray text color */
+  padding: 10px; /* Padding around the description text */
+}
+
+/* Rating section styles */
+.rating {
+  font-size: 1.2rem; /* Font size for rating */
+  color: #333; /* Dark gray text color */
+  display: inline-flex; /* Inline-flex for aligning items */
+  align-items: center; /* Center-align items vertically */
+  gap: 4px; /* Space between rating items */
+  padding-bottom: 10px; /* Space below the rating */
+}
+
+/* Highlighted span within the heading */
+.heading span {
+  color: #ffd233; /* Yellow text color */
+}
+
+/* Styles for individual slides in a carousel/slider */
+.slick-slide > div {
+  margin: 0 20px; /* Horizontal margin between slides */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
   .slick-slide > div {
-    margin: 0 ;
+    margin: 0; /* Remove margin on smaller screens */
   }
+
   .reviewCard {
-    margin-top: 20px;
+    margin-top: 20px; /* Reduce space above the review card on smaller screens */
   }
-  
 }

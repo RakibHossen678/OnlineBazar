@@ -1,105 +1,135 @@
+/* Logo styling */
 .logo {
-  font-family: var(--potta);
-  font-size: 35px;
+  font-family: var(--potta); /* Custom font for the logo */
+  font-size: 35px; /* Font size for the logo */
 }
 .logo span {
-  color: #ffd233;
-}
-nav{
-  box-shadow: 3px 4px 20px gainsboro;
-}
-.nav_row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav_row ul {
-  padding-left: 0;
-}
-.nav_row ul li {
-  display: inline-block;
-  padding: 20px 23px;
-}
-.nav_row ul li a {
-  color: black;
-  position: relative;
-}
-.nav_row ul li a::before {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 0%;
-  bottom: -6px;
-  left: 0;
-  background-color: black;
-  transition: 0.3s;
-}
-.nav_row ul li a:hover::before {
-  width: 100%;
-}
-.nav_row div {
-  display: flex;
-  align-items: center;
-}
-.nav_row div button {
-  background-color: #ffd233;
-  border: none;
-  outline: none;
-  padding: 7px 31px;
-  border-radius: 13px;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 180%;
-  margin-right: 15px;
-  border: 2px solid #ffd233;
-}
-.nav_row div button:hover {
-  background: transparent;
-  color: #000;
-  border: 2px solid black;
-}
-.menubar {
-  display: none;
-}
-.lg_menu {
-  margin-top: 9px;
-  background-color: #ffd233;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: none;
-  border-radius: 20px;
-  position: absolute;
-  left: 8px;
-  right: 8px;
-  padding: 10px;
-  transition: 0.7s;
-  }
-.lg_menu ul li a {
-  color: white;
-  padding-top: 10px;
-  display: inline-block;
+  color: #ffd233; /* Highlight color for part of the logo */
 }
 
+/* Navigation bar styling */
+nav {
+  box-shadow: 3px 4px 20px gainsboro; /* Shadow effect for the navigation bar */
+}
+
+/* Flexbox container for navigation items */
+.nav_row {
+  display: flex; /* Flexbox layout for alignment */
+  justify-content: space-between; /* Space out items */
+  align-items: center; /* Center items vertically */
+}
+
+/* Reset padding for the navigation list */
+.nav_row ul {
+  padding-left: 0; /* Remove left padding */
+}
+
+/* Navigation list items styling */
+.nav_row ul li {
+  display: inline-block; /* Display list items inline */
+  padding: 20px 23px; /* Padding around list items */
+}
+
+/* Styling for links in navigation list items */
+.nav_row ul li a {
+  color: black; /* Text color for links */
+  position: relative; /* Relative positioning for the underline effect */
+}
+
+/* Before pseudo-element for the underline effect */
+.nav_row ul li a::before {
+  content: ""; /* Empty content for the underline */
+  position: absolute; /* Positioning for the underline */
+  height: 2px; /* Height of the underline */
+  width: 0%; /* Initial width of the underline */
+  bottom: -6px; /* Position the underline slightly below the text */
+  left: 0; /* Start from the left */
+  background-color: black; /* Color of the underline */
+  transition: 0.3s; /* Smooth transition for the underline */
+}
+
+/* Hover effect for the underline */
+.nav_row ul li a:hover::before {
+  width: 100%; /* Expand the underline on hover */
+}
+
+/* Flexbox container for button in the navigation */
+.nav_row div {
+  display: flex; /* Flexbox layout for alignment */
+  align-items: center; /* Center items vertically */
+}
+
+/* Styling for the button in the navigation */
+.nav_row div button {
+  background-color: #ffd233; /* Background color */
+  border: none; /* Remove default border */
+  outline: none; /* Remove default outline */
+  padding: 7px 31px; /* Padding inside the button */
+  border-radius: 13px; /* Rounded corners */
+  font-weight: 600; /* Bold text */
+  font-size: 15px; /* Font size */
+  line-height: 180%; /* Line height for spacing */
+  margin-right: 15px; /* Space to the right of the button */
+  border: 2px solid #ffd233; /* Border color matching background */
+}
+
+/* Hover effect for the button */
+.nav_row div button:hover {
+  background: transparent; /* Transparent background on hover */
+  color: #000; /* Black text color */
+  border: 2px solid black; /* Black border on hover */
+}
+
+/* Menubar icon for smaller screens (hidden by default) */
+.menubar {
+  display: none; /* Hidden by default */
+}
+
+/* Dropdown menu styling for smaller screens */
+.lg_menu {
+  margin-top: 9px; /* Margin at the top */
+  background-color: #ffd233; /* Background color */
+  text-align: center; /* Center text alignment */
+  display: flex; /* Flexbox layout for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  display: none; /* Hidden by default */
+  border-radius: 20px; /* Rounded corners */
+  position: absolute; /* Absolute positioning */
+  left: 8px; /* Space from the left */
+  right: 8px; /* Space from the right */
+  padding: 10px; /* Padding inside the dropdown */
+  transition: 0.7s; /* Smooth transition for dropdown */
+}
+
+/* Styling for links in the dropdown menu */
+.lg_menu ul li a {
+  color: white; /* White text color */
+  padding-top: 10px; /* Padding at the top */
+  display: inline-block; /* Display links inline */
+}
+
+/* Responsive styling for screens 768px or smaller */
 @media (max-width: 768px) {
   nav {
-    margin-top: 15px;
+    margin-top: 15px; /* Adjust margin for smaller screens */
   }
-  
+
   .menubar {
-    display: inline;
-    margin-left: 10px;
+    display: inline; /* Show menubar icon on smaller screens */
+    margin-left: 10px; /* Space to the left of the menubar icon */
   }
+
   .nav_row ul {
-    display: none;
+    display: none; /* Hide navigation list items on smaller screens */
   }
+
   .logo {
-    font-size: 20px;
+    font-size: 20px; /* Smaller logo font size for smaller screens */
   }
+
   .nav_row div button {
-    padding: 5px 20px;
-    line-height: 180%;
+    padding: 5px 20px; /* Adjust padding for smaller screens */
+    line-height: 180%; /* Maintain line height */
   }
-  
 }

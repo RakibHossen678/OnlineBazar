@@ -1,69 +1,83 @@
+/* Main container for the "About Us" section */
 .about-us {
-  padding: 60px 20px;
-  background-color: #f9f9f9;
-
-  margin-bottom: 60px;
+  padding: 60px 20px; /* Padding around the section */
+  background-color: #f9f9f9; /* Light background color */
+  margin-bottom: 60px; /* Space below the section */
 }
 
+/* Heading for the "About Us" section */
 .about-us h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #333;
+  font-size: 2.5rem; /* Font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #333; /* Dark text color */
 }
 
+/* Mission paragraph styling */
 .about-us .mission {
-  margin-bottom: 20px;
-  color: #555;
+  margin-bottom: 20px; /* Space below the mission paragraph */
+  color: #555; /* Medium gray text color */
 }
 
+/* Values heading styling */
 .about-us .values {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #333;
+  font-size: 1.5rem; /* Font size for the values heading */
+  margin-bottom: 10px; /* Space below the values heading */
+  color: #333; /* Dark text color */
 }
 
+/* List styling for the values section */
 .about-us .values-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0 auto;
-  max-width: 600px;
+  list-style-type: none; /* Remove default list bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0 auto; /* Center the list with auto margins */
+  max-width: 600px; /* Maximum width for better readability */
 }
 
+/* Individual list item styling */
 .about-us .values-list li {
-  font-size: 1.1rem;
-  margin-bottom: 15px;
-  color: #555;
+  font-size: 1.1rem; /* Font size for list items */
+  margin-bottom: 15px; /* Space below each list item */
+  color: #555; /* Medium gray text color */
 }
 
+/* Strong text within list items */
 .about-us .values-list li strong {
-  color: #333;
+  color: #333; /* Dark text color for strong elements */
 }
+
+/* Flex container for content and image */
 .about_row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between content and image */
+  align-items: center; /* Center items vertically */
 }
+
+/* Image container styling */
 .image {
-  width: 100%;
-  max-width: 500px;
+  width: 100%; /* Full width of the container */
+  max-width: 500px; /* Maximum width for image */
 }
+
+/* Image styling */
 .image img {
-  width: 100%;
-  object-fit: contain;
+  width: 100%; /* Full width of the image container */
+  object-fit: contain; /* Ensure the entire image is visible */
 }
+
+/* Color for "Us" part of the heading */
 .us {
-  color: #ffd233;
+  color: #ffd233; /* Yellow color for emphasis */
 }
 
-
-@media (max-width: 768px){
+/* Responsive adjustments for medium devices */
+@media (max-width: 768px) {
   .about_row {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse; /* Stack content and image vertically */
   }
-  .content{
-    margin-top: 41px;
+  .content {
+    margin-top: 41px; /* Space above the content for better separation */
   }
-  .about-us{
-    padding: 0;
+  .about-us {
+    padding: 0; /* Remove padding for smaller screens */
   }
 }

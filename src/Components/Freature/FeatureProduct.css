@@ -1,139 +1,175 @@
+/* Container for feature section */
 #feature {
-  margin-bottom: 70px;
-  margin-top: 10px;
+  margin-bottom: 70px; /* Space below the feature section */
+  margin-top: 60px; /* Space above the feature section */
 }
+
+/* Styling for individual feature cards */
 .f_card {
-  width: 30.33%;
-  position: relative;
-  box-shadow: 3px 3px 20px gainsboro;
+  width: 30.33%; /* Width of each card */
+  position: relative; /* Required for absolute positioning of the addCard button */
+  box-shadow: 3px 3px 20px gainsboro; /* Shadow effect for the card */
 }
+
+/* Image styling inside the feature card */
 .f_card img {
-  width: 100%;
-  height: 360px;
-  object-fit: cover;
-  object-position: top;
+  width: 100%; /* Full width of the card */
+  height: 360px; /* Fixed height for consistency */
+  object-fit: cover; /* Cover the image while maintaining aspect ratio */
+  object-position: top; /* Position the image from the top */
 }
+
+/* Styling for card headings */
 .f_card div h3 {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 180%;
-  color: #353535;
-  padding-bottom: 8px;
+  font-weight: 500; /* Medium font weight */
+  font-size: 18px; /* Font size for headings */
+  line-height: 180%; /* Line height for spacing */
+  color: #353535; /* Text color */
+  padding-bottom: 8px; /* Space below the heading */
 }
+
+/* Padding inside the card */
 .f_card div {
-  padding: 10px;
+  padding: 10px; /* Space inside the card */
 }
+
+/* Styling for subheadings in the card */
 .f_card div h5 {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 180%;
-  color: #353535;
-  padding-bottom: 6px;
-  text-transform: capitalize;
+  font-weight: 600; /* Bold font weight */
+  font-size: 16px; /* Font size for subheadings */
+  line-height: 180%; /* Line height for spacing */
+  color: #353535; /* Text color */
+  padding-bottom: 6px; /* Space below the subheading */
+  text-transform: capitalize; /* Capitalize the first letter of each word */
 }
+
+/* Styling for paragraphs inside the card */
 .f_card div p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  color: #7a7a7a;
-  margin-bottom: 10px;
+  font-weight: 400; /* Normal font weight */
+  font-size: 16px; /* Font size for paragraphs */
+  line-height: 160%; /* Line height for spacing */
+  color: #7a7a7a; /* Text color */
+  margin-bottom: 10px; /* Space below the paragraph */
 }
+
+/* Styling for the crossed-out text */
 .cross {
-  font-weight: 300;
-  font-size: 16px;
-  color: #7a7a7a;
-  text-decoration: line-through;
-  padding-right: 7px;
+  font-weight: 300; /* Light font weight */
+  font-size: 16px; /* Font size for crossed-out text */
+  color: #7a7a7a; /* Text color */
+  text-decoration: line-through; /* Line through the text */
+  padding-right: 7px; /* Space to the right of the text */
 }
+
+/* Styling for the "Add to Cart" button */
 .addCard {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  background: gainsboro;
-  padding: 10px;
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-  border: none;
-  cursor: pointer;
+  position: absolute; /* Position it absolutely within the card */
+  top: 10px; /* Space from the top */
+  right: 15px; /* Space from the right */
+  background: gainsboro; /* Background color */
+  padding: 10px; /* Space inside the button */
+  border-radius: 100%; /* Circular shape */
+  display: flex; /* Flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  visibility: hidden; /* Hidden by default */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Pointer cursor on hover */
 }
+
+/* Show the "Add to Cart" button on hover over the card */
 .f_card:hover .addCard {
-  visibility: visible;
+  visibility: visible; /* Make it visible */
 }
+
+/* Flexbox container for feature cards */
 .feature_row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
+  display: flex; /* Flexbox for alignment */
+  flex-wrap: wrap; /* Wrap items to the next line */
+  gap: 40px; /* Space between items */
 }
 
+/* Styling for the feature section headline */
 .f_content {
-  text-align: center;
-  margin-bottom: 58px;
-  font-family: var(--pt);
-  font-size: 40px;
+  text-align: center; /* Center align text */
+  margin-bottom: 58px; /* Space below the headline */
+  font-family: var(--pt); /* Custom font */
+  font-size: 40px; /* Font size for the headline */
 }
+
+/* Highlighted color for part of the headline */
 .f_content span {
-  color: #ffd233;
+  color: #ffd233; /* Highlight color */
 }
 
+/* Flexbox container for filter controls */
 .filter_control {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin-bottom: 40px;
+  display: flex; /* Flexbox for alignment */
+  flex-wrap: wrap; /* Wrap items to the next line */
+  gap: 20px; /* Space between items */
+  justify-content: center; /* Center items horizontally */
+  margin-bottom: 40px; /* Space below the filter controls */
 }
 
+/* Dropdown styling */
 .dropdown {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 300px;
+  display: flex; /* Flexbox for alignment */
+  flex-direction: column; /* Stack dropdown elements vertically */
+  width: 100%; /* Full width */
+  max-width: 300px; /* Maximum width */
 }
 
+/* Styling for dropdown labels */
 .label {
-  font-size: 1rem;
-  color: #333;
-  margin-bottom: 5px;
-  font-weight: bold;
+  font-size: 1rem; /* Font size for labels */
+  color: #333; /* Text color */
+  margin-bottom: 5px; /* Space below the label */
+  font-weight: bold; /* Bold font weight */
 }
 
+/* Styling for dropdown select element */
 select {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #fff;
-  font-size: 16px;
-  color: #333;
-  width: 100%;
-  cursor: pointer;
-  transition: border-color 0.3s ease;
+  padding: 10px; /* Space inside the select element */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff; /* Background color */
+  font-size: 16px; /* Font size */
+  color: #333; /* Text color */
+  width: 100%; /* Full width */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: border-color 0.3s ease; /* Smooth border color transition */
 }
 
+/* Focus styling for the select element */
 select:focus {
-  outline: none;
-  border-color: #ffd233;
+  outline: none; /* Remove default outline */
+  border-color: #ffd233; /* Highlight border color on focus */
 }
 
+/* Padding for options inside the select element */
 option {
-  padding: 14px;
+  padding: 14px; /* Space inside options */
 }
+
+/* Styling for the cart item count */
 .addToCart {
-  position: relative;
+  position: relative; /* Position relative to allow absolute positioning of the count */
 }
+
+/* Styling for the cart item count badge */
 .addToCart .count {
-  position: absolute;
-  top: -12px;
-  right: -16px;
-  background: #ffd233;
-  padding: 2px 6px;
-  border-radius: 50%;
-  font-size: 14px;
+  position: absolute; /* Absolute positioning */
+  top: -12px; /* Position above the cart icon */
+  right: -16px; /* Position to the right of the cart icon */
+  background: #ffd233; /* Background color */
+  padding: 2px 6px; /* Space inside the badge */
+  border-radius: 50%; /* Circular shape */
+  font-size: 14px; /* Font size */
 }
+
+/* Responsive styling for feature cards */
 @media (max-width: 768px) {
   .f_card {
-    width: 100%;
+    width: 100%; /* Full width for small screens */
   }
 }

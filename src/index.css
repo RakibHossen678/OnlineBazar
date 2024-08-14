@@ -1,11 +1,14 @@
+/* Importing fonts from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&display=swap");
 
+/* Defining font family variables for easy use throughout the application */
 :root {
-  --poppins: "Poppins", sans-serif;
-  --pt: "PT Sans", sans-serif;
-  --potta: "Potta One", sans-serif;
+  --poppins: "Poppins", sans-serif; /* Primary font for body text */
+  --pt: "PT Sans", sans-serif; /* Secondary font for headings and subheadings */
+  --potta: "Potta One", sans-serif; /* Decorative font for special elements */
 }
 
+/* Resetting default margins, paddings, list styles, and text decorations */
 * {
   margin: 0;
   padding: 0;
@@ -14,18 +17,23 @@
   box-sizing: border-box;
 }
 
+/* Setting base font family and hiding horizontal overflow */
 body {
-  font-family: var(--poppins);
-  overflow-x: hidden;
+  font-family: var(--poppins); /* Applying the primary font to the body */
+  overflow-x: hidden; /* Preventing horizontal scrolling */
 }
+
+/* Styling the container to be responsive and centered */
 .container {
   width: 100%;
-  max-width: 1190px;
-  margin: auto;
+  max-width: 1190px; /* Maximum width for large screens */
+  margin: auto; /* Centering the container horizontally */
 }
+
+/* Adjusting container padding for smaller screens */
 @media (max-width: 768px) {
   .container {
     width: 100%;
-    padding: 0 14px;
+    padding: 0 14px; /* Adding horizontal padding for better spacing on small screens */
   }
 }

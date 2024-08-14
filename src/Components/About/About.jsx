@@ -37,7 +37,8 @@ const About = () => {
               </ul>
             </div>
             <div className="image">
-              <img src={aboutImg} alt="" />
+               {/* Image representing the "About Us" section */}
+              <img src={aboutImg} alt="About Us" />
             </div>
           </div>
         </div>

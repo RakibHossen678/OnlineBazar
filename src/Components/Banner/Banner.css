@@ -1,86 +1,99 @@
+/* Hero section styling */
 .hero-section {
-  height: 80vh;
-  margin-top: 70px;
+  height: 80vh; /* Set the height of the hero section to 80% of the viewport height */
+  margin-top: 70px; /* Margin at the top of the hero section */
 }
 
+/* Flexbox layout for the banner row */
 .banner_row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Vertically align items to the center */
+  justify-content: space-between; /* Space items evenly with space between them */
+  gap: 20px; /* Space between items */
 }
 
+/* Flex container for hero content */
 .hero-content {
-  flex: 1;
+  flex: 1; /* Flex-grow to take available space */
 }
 
+/* Styling for the hero headline */
 .hero-headline {
-  font-weight: 700;
-  font-size: 3.5rem;
-  color: #353535;
-  font-family: var(--pt);
-  margin-bottom: 20px;
+  font-weight: 700; /* Bold text */
+  font-size: 3.5rem; /* Large font size for the headline */
+  color: #353535; /* Dark gray color for text */
+  font-family: var(--pt); /* Font family defined in CSS variables */
+  margin-bottom: 20px; /* Space below the headline */
 }
 
+/* Styling for the hero subheadline */
 .hero-subheadline {
-  font-size: 14px;
-  color: #353535;
-  margin-bottom: 30px;
-  width: 75%;
+  font-size: 14px; /* Font size for the subheadline */
+  color: #353535; /* Dark gray color for text */
+  margin-bottom: 30px; /* Space below the subheadline */
+  width: 75%; /* Width of the subheadline text */
 }
 
+/* Styling for the CTA button */
 .hero-cta {
-  padding: 13px 30px;
-  background-color: #ffd233;
-  color: #000;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  border: 2px solid #ffd233;
+  padding: 13px 30px; /* Padding inside the button */
+  background-color: #ffd233; /* Background color of the button */
+  color: #000; /* Text color of the button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for the button */
+  font-size: 1.2rem; /* Font size for the button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  display: flex; /* Flexbox layout for aligning items */
+  align-items: center; /* Center items vertically */
+  border: 2px solid #ffd233; /* Border color matching the background */
 }
+
+/* Styling for the icon within the CTA button */
 .hero-cta span {
-  padding-top: 4px;
-  padding-left: 5px;
+  padding-top: 4px; /* Space above the icon */
+  padding-left: 5px; /* Space to the left of the icon */
 }
-.hero-cta:hover{
-  background: transparent;
-  border: 2px solid ;
+
+/* Hover effect for the CTA button */
+.hero-cta:hover {
+  background: transparent; /* Transparent background on hover */
+  border: 2px solid; /* Remove background color but keep border */
 }
+
+/* Styling for the banner image */
 .banner_img img {
-  width: 100%;
-  height: auto;
-  max-width: 529px;
-  display: block;
-  
+  width: 100%; /* Full width of the container */
+  height: auto; /* Auto height to maintain aspect ratio */
+  max-width: 529px; /* Maximum width of the image */
+  display: block; /* Remove any default inline spacing */
 }
+
+/* Responsive adjustments for devices with max-width 768px */
 @media (max-width: 768px) {
   .hero-headline {
-    font-size: 40px;
+    font-size: 40px; /* Adjust font size for smaller screens */
   }
 
   .hero-subheadline {
-    font-size: 12px;
-    width: 100%;
+    font-size: 12px; /* Adjust font size for smaller screens */
+    width: 100%; /* Full width for subheadline on smaller screens */
   }
 
   .hero-cta {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+    font-size: 16px; /* Adjust font size for smaller screens */
   }
 
   .banner_row {
-    flex-direction: column-reverse;
-    align-items: flex-start;
+    flex-direction: column-reverse; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Align items to the start */
   }
 
   .banner_img img {
-    max-width: 100%;
+    max-width: 100%; /* Full width of the container on smaller screens */
   }
+
   .hero-section {
-    
-    margin-top: 20px;
+    margin-top: 20px; /* Reduce top margin on smaller screens */
   }
 }

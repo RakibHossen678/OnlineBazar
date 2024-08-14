@@ -4,7 +4,7 @@ import { FaCartShopping } from "react-icons/fa6";
 const ProductCard = ({ product, addToCard }) => {
   const { name, category, image, description, new_price, old_price } = product;
   return (
-    <div className="f_card">
+    <section className="f_card">
       <img src={image} alt="" />
       <div>
         <h3>{name}</h3>
@@ -17,7 +17,7 @@ const ProductCard = ({ product, addToCard }) => {
       <button onClick={() => addToCard(product)} className="addCard">
         <FaCartShopping size={24} />
       </button>
-    </div>
+    </section>
   );
 };
 

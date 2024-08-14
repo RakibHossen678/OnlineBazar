@@ -1,15 +1,19 @@
 .news {
+  /* Background color and padding for the news section */
   background-color: #f4f4f4;
   padding: 110px 20px;
   text-align: center;
-  margin: 70px 0;
+  margin: 70px 0; /* Margin to create space above and below the section */
 }
 
 .news .container {
+  /* Center the container and set a maximum width */
   max-width: 800px;
   margin: 0 auto;
 }
+
 .news_row {
+  /* Flexbox properties to align and center content vertically and horizontally */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,21 +21,26 @@
 }
 
 .news_row h1 {
+  /* Heading style: bold font, large size, and right-aligned */
   font-weight: 700;
   font-size: 56px;
   text-align: right;
   color: #353535;
-  font-family: var(--pt);
+  font-family: var(--pt); /* Use the custom font defined in CSS variables */
   margin-bottom: 10px;
 }
+
 .news_row p {
+  /* Paragraph style: lighter font, moderate size, and increased line-height for readability */
   font-weight: 400;
   font-size: 17px;
   line-height: 200%;
   color: #7a7a7a;
   margin-bottom: 10px;
 }
+
 .news_row form {
+  /* Flexbox layout for the form elements, with center alignment and wrapping for responsiveness */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,15 +49,17 @@
 }
 
 .news_row input {
+  /* Style for the input field */
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ddd;
   border-radius: 4px;
-  width: 300px;
-  max-width: 100%;
+  width: 300px; /* Fixed width for larger screens */
+  max-width: 100%; /* Ensure the input is responsive on smaller screens */
 }
 
 .news_row button {
+  /* Style for the button */
   padding: 10px 20px;
   font-size: 1rem;
   color: #fff;
@@ -56,14 +67,16 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
 .news_row button:hover {
+  /* Darker background color when hovering over the button */
   background-color: #ffd233;
 }
 
 .news_row button:focus {
+  /* Focus style for accessibility */
   outline: none;
   box-shadow: 0 0 0 2px #ffd233;
 }

@@ -1,9 +1,12 @@
 import "./Footer.css";
+
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
+        {/* Footer main content */}
         <div className="footer-content">
+          {/* About Us section */}
           <div className="footer-section about">
             <h1 className="logo">
               Online<span>Bazar</span>
@@ -17,6 +20,7 @@ const Footer = () => {
             </p>
           </div>
 
+          {/* Quick Links section */}
           <div className="footer-section links">
             <h4>Quick Links</h4>
             <ul>
@@ -41,33 +45,41 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* Contact Us section */}
           <div className="footer-section contact">
             <h4>Contact Us</h4>
-            <p>Email: rh491464@gmail.com.com</p>
-            <p>Phone: 01933796400</p>
+            <p>Email: <a href="mailto:rh491464@gmail.com">rh491464@gmail.com</a></p>
+            <p>Phone: <a href="tel:01933796400">01933796400</a></p>
             <p>Address: Chattogram, Bangladesh</p>
           </div>
 
+          {/* Newsletter subscription section */}
           <div className="footer-section newsletter">
             <h4>Subscribe to Our Newsletter</h4>
             <form action="#" method="post">
-              <input type="email" placeholder="Enter your email" required />
+              <input 
+                type="email" 
+                placeholder="Enter your email" 
+                required 
+                aria-label="Email address for newsletter subscription"
+              />
               <button type="submit">Subscribe</button>
             </form>
           </div>
         </div>
 
+        {/* Social media links */}
         <div className="footer-social">
-          <a href="#" className="social-icon">
+          <a href="#" className="social-icon" aria-label="Facebook">
             <i className="fa fa-facebook"></i>
           </a>
-          <a href="#" className="social-icon">
+          <a href="#" className="social-icon" aria-label="Twitter">
             <i className="fa fa-twitter"></i>
           </a>
-          <a href="#" className="social-icon">
+          <a href="#" className="social-icon" aria-label="Instagram">
             <i className="fa fa-instagram"></i>
           </a>
-          <a href="#" className="social-icon">
+          <a href="#" className="social-icon" aria-label="LinkedIn">
             <i className="fa fa-linkedin"></i>
           </a>
         </div>
