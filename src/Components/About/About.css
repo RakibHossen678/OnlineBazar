@@ -44,12 +44,26 @@
   align-items: center;
 }
 .image {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
 }
 .image img {
-  width: 450px;
+  width: 100%;
   object-fit: contain;
 }
 .us {
   color: #ffd233;
+}
+
+
+@media (max-width: 768px){
+  .about_row {
+    flex-direction: column-reverse;
+  }
+  .content{
+    margin-top: 41px;
+  }
+  .about-us{
+    padding: 0;
+  }
 }

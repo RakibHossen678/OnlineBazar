@@ -7,7 +7,7 @@ const About = () => {
         <div className="container">
           <h2>About <span className="us">Us</span></h2>
           <div className="about_row">
-            <div>
+            <div className="content">
               <p className="mission">
                 Our mission is to provide high-quality, stylish, and affordable
                 clothing for everyone. We believe in making fashion accessible
