@@ -1,0 +1,66 @@
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+.review {
+  margin-bottom: 80px;
+}
+.reviewCard {
+  margin-top: 51px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.image {
+  background: #ffd233;
+  padding: 20px 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.image img {
+  width: 100px; /* Set a fixed width */
+  height: 100px; /* Set a fixed height */
+  border-radius: 50%; /* Ensure the image is circular */
+  object-fit: cover;
+}
+/* .review_Content {
+  padding: 15px 10px;
+} */
+.review_Content h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #353535;
+  padding-top: 15px;
+}
+.desc {
+  font-weight: 400;
+  line-height: 200%;
+  color: #7a7a7a;
+  padding:  10px;
+}
+.rating {
+  font-size: 1.2rem;
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding-bottom: 10px;
+}
+.heading span {
+  color: #ffd233;
+}
+.slick-slide > div {
+  margin: 0 30px;
+}

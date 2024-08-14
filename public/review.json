@@ -1,0 +1,38 @@
+[
+  {
+    "name": "John Doe",
+    "review": "Great service and quality products. Highly recommended!",
+    "rating": 5,
+    "img": "https://i.ibb.co/XCrpNxC/1.jpg"
+  },
+  {
+    "name": "Jane Smith",
+    "review": "Very satisfied with my purchase. Will shop again!",
+    "rating": 4,
+    "img": "https://i.ibb.co/Pzjww10/2.jpg"
+  },
+  {
+    "name": "Alice Johnson",
+    "review": "Customer support was very helpful. The product is top-notch.",
+    "rating": 5,
+    "img": "https://i.ibb.co/4p94HSV/3.jpg"
+  },
+  {
+    "name": "Michael Lee",
+    "review": "The website is very user-friendly, and the checkout process was smooth.",
+    "rating": 4,
+    "img": "https://i.ibb.co/vmqF55F/4-1.jpg"
+  },
+  {
+    "name": "Sarah Brown",
+    "review": "Fantastic customer service! They helped me find exactly what I needed.",
+    "rating": 5,
+    "img": "https://i.ibb.co/z241ykM/5-1.jpg"
+  },
+  {
+    "name": "David Williams",
+    "review": "The delivery was fast, and the product quality exceeded my expectations. ",
+    "rating": 5,
+    "img": "https://i.ibb.co/LhrYYGx/6-1.jpg"
+  }
+]
