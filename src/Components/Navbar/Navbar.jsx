@@ -17,8 +17,10 @@ const Navbar = () => {
 
   // useEffect to load cart data from localStorage when the component mounts
   useEffect(() => {
-    const cardData = JSON.parse(localStorage.getItem("cart")).length;
-    setProduct(cardData);
+    const cardData = JSON.parse(localStorage.getItem("cart"));
+    if (cardData) {
+      setProduct(cardData.length);
+    }
   }, []);
 
   return (
