@@ -48,9 +48,9 @@ const Footer = () => {
           {/* Contact Us section */}
           <div className="footer-section contact">
             <h4>Contact Us</h4>
-            <p>Email: <a href="mailto:rh491464@gmail.com">rh491464@gmail.com</a></p>
-            <p>Phone: <a href="tel:01933796400">01933796400</a></p>
-            <p>Address: Chattogram, Bangladesh</p>
+            <p>Email: <a href="mailto:rh491464@gmail.com" className="para">rh491464@gmail.com</a></p>
+            <p>Phone: <a href="tel:01933796400" className="para">01933796400</a></p>
+            <p >Address: Chattogram, Bangladesh</p>
           </div>
 
           {/* Newsletter subscription section */}
