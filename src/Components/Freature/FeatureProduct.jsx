@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
 import "./FeatureProduct.css";
+import toast from "react-hot-toast";
 const FeatureProduct = () => {
   const [products, setProducts] = useState([]);
   const [sortOption, setSortOption] = useState("");
@@ -32,6 +33,13 @@ const FeatureProduct = () => {
   };
   const handleCategoryChange = (e) => {
     setCategoryOption(e.target.value);
+  };
+
+  const addToCard = (product) => {
+    const existingCart = JSON.parse(localStorage.getItem("cart")) || [];
+    const updateCart = [...existingCart, product];
+    localStorage.setItem("cart", JSON.stringify(updateCart));
+    toast.success("Product added to cart");
   };
   return (
     <section id="feature">
@@ -69,7 +77,11 @@ const FeatureProduct = () => {
         </div>
         <div className="feature_row">
           {filteredProducts.slice(0, 12).map((product, idx) => (
-            <ProductCard key={idx} product={product}></ProductCard>
+            <ProductCard
+              addToCard={addToCard}
+              key={idx}
+              product={product}
+            ></ProductCard>
           ))}
         </div>
       </div>

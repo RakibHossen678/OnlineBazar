@@ -7,8 +7,9 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-    
   };
+  const cardData = JSON.parse(localStorage.getItem("cart")).length;
+  console.log(cardData);
   return (
     <nav>
       <div className="container">
@@ -32,15 +33,19 @@ const Navbar = () => {
           </ul>
           <div>
             <button>Login</button>
-            <p>
+            <p className="addToCart">
               <FaCartShopping size={24} />
+              <p className="count">{cardData}</p>
             </p>
             <p className="menubar" onClick={toggleMenu}>
               <HiMiniBars3BottomRight size={24} />
             </p>
           </div>
         </div>
-        <div className="lg_menu" style={{ display: menuOpen ? "block" : "none" }}>
+        <div
+          className="lg_menu"
+          style={{ display: menuOpen ? "block" : "none" }}
+        >
           <ul>
             <li>
               <a href="#">Home</a>

@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 const ReviewCard = ({ review }) => {
   const { name, review: reviewText, rating, img } = review;
   return (
@@ -12,6 +13,10 @@ const ReviewCard = ({ review }) => {
       </div>
     </div>
   );
+};
+
+ReviewCard.propTypes = {
+  review: PropTypes.object,
 };
 
 export default ReviewCard;

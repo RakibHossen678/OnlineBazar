@@ -1,6 +1,7 @@
 import "./FeatureProduct.css";
+import PropTypes from "prop-types";
 import { FaCartShopping } from "react-icons/fa6";
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, addToCard }) => {
   const { name, category, image, description, new_price, old_price } = product;
   return (
     <div className="f_card">
@@ -13,11 +14,16 @@ const ProductCard = ({ product }) => {
           <span className="cross">${old_price}</span> <span>${new_price}</span>
         </div>
       </div>
-      <div className="addCard">
+      <button onClick={() => addToCard(product)} className="addCard">
         <FaCartShopping size={24} />
-      </div>
+      </button>
     </div>
   );
+};
+
+ProductCard.propTypes = {
+  product: PropTypes.object,
+  addToCard: PropTypes.func,
 };
 
 export default ProductCard;
